@@ -3,7 +3,7 @@
 Plugin Name: Woocommerce Cart Additional Fee
 Plugin URI:  https://github.com/Sajjad-Hossain-Sagor/Woocommerce-Cart-Additional-Fee
 Description: Add Additional Fee to your Customer Cart Based on cart amount, minimun cart or maximum cart amount filter and apply fee for specific product item.
-Version: 1.0.2
+Version: 1.0.3
 Author: Sajjad Hossain Sagor
 Author URI:  https://profiles.wordpress.org/sajjad67
 Text Domain: woo-cart-additional-fee
@@ -51,7 +51,9 @@ function wcfee_check_woocommerce_activation_status()
 // Define Plugin Folders Path
 // ---------------------------------------------------------
 define( "WCFEE_PLUGIN_PATH", plugin_dir_path( __FILE__ ) );
+
 define( "WCFEE_PLUGIN_URL", __FILE__ );
+
 define( "WCFEE_PLUGIN_INCLUDES_PATH", plugin_dir_path( __FILE__ ) . "includes/" );
 
 // ---------------------------------------------------------

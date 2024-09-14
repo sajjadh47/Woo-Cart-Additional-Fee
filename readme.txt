@@ -2,8 +2,8 @@
 Contributors: sajjad67
 Tags: Woocommerce, custom fee, additional fee, cart fee, extra fee, Woocommerce fee,advanced fee
 Requires at least: 5.6
-Tested up to: 6.0
-Stable tag: 1.0.2
+Tested up to: 6.6
+Stable tag: 1.0.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,7 +46,11 @@ Update inputs according to your requirement and you are good to go.
 2. Additional Fee displayed in cart using Woocommerce Cart Additional Fee plugin.
 
 == Changelog ==
-= 1.0.1 =
+= 1.0.4 =
+- Checked for compatibility for wp 6.6
+= 1.0.3 =
+- Checked for compatibility for wp 6.3
+= 1.0.2 =
 - Improved Coding Style & Checked for compatibility for wp 6.0
 = 1.0.1 =
 - Added 'Enable Fee For Customer Country' Filter...
